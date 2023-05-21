@@ -65,8 +65,9 @@ const CoinMarketPage = () => {
       <thead className="border-t border-white border-opacity-20">
         <tr>
           <th className="bg-custom-orange px-10 py-2">#</th>
-          <th className="text-custom-orange px-10 py-2 ">Name</th>
-          <th className="text-custom-orange px-10 py-2 pr-16">Price</th>
+          <th className="text-custom-orange px-10 py-2 "><span className="pr-30">Name</span>
+</th>
+          <th className="text-custom-orange px-10 py-2 "><span className="pr-30">Name</span></th>
           <th className="text-orange-500 px-10 py-2">1h %</th>
           <th className="text-orange-500 px-10 py-2">24h %</th>
           <th className="text-orange-500 px-10 py-2">7d %</th>
