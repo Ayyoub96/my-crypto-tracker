@@ -3,9 +3,9 @@ import Header from '@/Components/Header'
 
 export default function Document() {
   return (
-    <Html lang="en" className="bg-gray-900">
+    <Html lang="en" >
       <Head />
-      <body className="bg-gray-900" >
+      <body  >
         <Header/>
         <Main  />
         <NextScript />
