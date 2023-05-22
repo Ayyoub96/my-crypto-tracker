@@ -1,19 +1,26 @@
 import ExchangesCard from "@/Components/ExchangesCard";
 import HoldingCard from "@/Components/holdingCard";
+import NftCard from "@/Components/NftsCard";
 
 const StatsPage = () => {
   return (
-    <>
-    <div className="flex justify-center">
-      <div className="mr-4">
-        <ExchangesCard />
-      </div>
-      <div className="ml-4">
-        <HoldingCard currency="bitcoin" />
-      </div>
+<>
+  <div className="grid grid-cols-2 mx-6 gap-4 ">
+    <div>
+      <ExchangesCard />
     </div>
-    <HoldingCard currency="ethereum" />
-    </>
+    <div>
+      <HoldingCard currency="bitcoin" />
+    </div>
+    <div className="col-span-2 -mt-40">
+      <NftCard />
+    </div>
+  </div>
+</>
+
+
+
+
   );
 };
 
