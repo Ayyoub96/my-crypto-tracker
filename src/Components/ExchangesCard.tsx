@@ -18,8 +18,8 @@ const ExchangesCard = () => {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-screen">
-      <div className="bg-gray-900 rounded p-8 max-h-[70%] overflow-y-auto">
+    <div className="mt-4  ml-14 h-screen">
+      <div className="bg-gray-900 rounded p-8 max-h-[70%]  overflow-y-auto">
         <h2 className="text-center text-custom-orange text-xl font-bold mb-4">Exchanges</h2>
         <table className="w-full">
           <thead>
